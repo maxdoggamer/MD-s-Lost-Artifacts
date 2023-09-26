@@ -1,0 +1,7 @@
+{
+  "parent": "maxdogs_lost_artifacts:custom/maxdogweapon",
+  "textures": {
+    "0": "maxdogs_lost_artifacts:block/maxdogweapon",
+    "particle": "maxdogs_lost_artifacts:item/maxdogweapon"
+  }
+}

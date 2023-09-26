@@ -1,0 +1,210 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "k1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kinecticbar1"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kinecticbar2"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kinecticbar3"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kinecticbar4"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kinecticbar5"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb6"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb7"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb8"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb9"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb10"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb11"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb12"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb13"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb14"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb15"
+          },
+          "x": 312,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "k16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Kb16"
+          },
+          "x": 312,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

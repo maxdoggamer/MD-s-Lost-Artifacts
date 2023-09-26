@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "maxdogs_lost_artifacts:item/memoriesofhome"
+  }
+}

@@ -1,0 +1,1089 @@
+{
+  "mod_elements": [
+    {
+      "name": "DoggyThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doggy_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/DoggyThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doggy",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doggy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/client/renderer/DoggyRenderer.java",
+          "src/main/java/net/mcreator/maxdogslostartifacts/entity/DoggyEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MaxdogsUltimateGunProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxdogs_ultimate_gun_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/MaxdogsUltimateGunProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaxdogsUltimateGun",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxdogs_ultimate_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/entity/MaxdogsUltimateGunEntity.java",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/MaxdogsUltimateGunItem.java",
+          "src/main/java/net/mcreator/maxdogslostartifacts/client/renderer/MaxdogsUltimateGunRenderer.java",
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/maxdogs_ultimate_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "NotDog",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_dog",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/NotDogProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KinecticWhenHurt",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinectic_when_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/KinecticWhenHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "KinecticOnAttack",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinectic_on_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/KinecticOnAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "BuildersHammerMakeItemGlow",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_hammer_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/BuildersHammerMakeItemGlowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Artifacts",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artifacts",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BuildersHammer",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/BuildersHammerItem.java",
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/builders_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Kinecticbar1",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinecticbar_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kinecticbar1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kinecticbar2",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinecticbar_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kinecticbar2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kinecticbar3",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinecticbar_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kinecticbar3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kinecticbar4",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinecticbar_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kinecticbar4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kinecticbar5",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinecticbar_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kinecticbar5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kinectic",
+      "type": "overlay",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinectic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/client/screens/KinecticOverlay.java"
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "BuildersHammerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_hammer_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/BuildersHammerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb6",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb7",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb8",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb9",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb10",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb11",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb12",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb13",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb14",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb15",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_15",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "Kb16",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kb_16",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Kb16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Kinectic"
+    },
+    {
+      "name": "BuildersHammerRightclicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_hammer_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/BuildersHammerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mana1",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana2",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana3",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana4",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana5",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana6",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana7",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana8",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana9",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Mana10",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/Mana10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaScreen",
+      "type": "overlay",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/client/screens/ManaScreenOverlay.java"
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaRegeneration",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regeneration",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/ManaRegenerationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaTesterRightclicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_tester_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/ManaTesterRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "ManaTester",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_tester",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/mana_tester.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/ManaTesterItem.java"
+        ]
+      },
+      "path": "~/Mana"
+    },
+    {
+      "name": "Spawnpointdiscover",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnpointdiscover",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/SpawnpointdiscoverProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Memories of Home"
+    },
+    {
+      "name": "MemoriesOfHomeRightclicked",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memories_of_home_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/MemoriesOfHomeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Memories of Home"
+    },
+    {
+      "name": "MemoriesOfHome",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "memories_of_home",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/memories_of_home.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/MemoriesOfHomeItem.java"
+        ]
+      },
+      "path": "~/Memories of Home"
+    },
+    {
+      "name": "HomeDebugerRightclicked",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "home_debuger_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/HomeDebugerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Memories of Home"
+    },
+    {
+      "name": "HomeDebuger",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "home_debuger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/HomeDebugerItem.java",
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/home_debuger.json"
+        ]
+      },
+      "path": "~/Memories of Home"
+    },
+    {
+      "name": "LevitationWandLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_wand_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/LevitationWandLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Levitation Wand"
+    },
+    {
+      "name": "LevitationWand",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/levitation_wand.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/LevitationWandItem.java"
+        ]
+      },
+      "path": "~/Levitation Wand"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Kinectic",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    },
+    {
+      "name": "spawnZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "SpawnY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "SpawnX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.maxdogs_lost_artifacts.memories_of_home": "Memories Of Home",
+      "item.maxdogs_lost_artifacts.mana_tester": "Mana Tester",
+      "gui.maxdogs_lost_artifacts.mana_screen.label_varmana": "\u003cVAR:Mana\u003e",
+      "entity.maxdogs_lost_artifacts.doggy": "Doggy",
+      "item.maxdogs_lost_artifacts.builders_hammer": "Builder\u0027s Hammer",
+      "item.maxdogs_lost_artifacts.maxdogs_ultimate_gun": "Maxdog\u0027s Ultimate Gun",
+      "item.maxdogs_lost_artifacts.levitation_wand": "Levitation Mace",
+      "itemGroup.tabartifacts": "Artifacts",
+      "item.maxdogs_lost_artifacts.home_debuger": "Home Debuger",
+      "item_group.maxdogs_lost_artifacts.artifacts": "Artifacts"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Kinectic",
+        "children": []
+      },
+      {
+        "name": "Mana",
+        "children": []
+      },
+      {
+        "name": "Memories of Home",
+        "children": []
+      },
+      {
+        "name": "Levitation Wand",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "maxdogs_lost_artifacts",
+    "modName": "MaxDog\u0027s Lost Artifacts",
+    "version": "0.5.0",
+    "author": "MaxDog",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.maxdogslostartifacts",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
