@@ -3,7 +3,7 @@
   "textures": {
     "all": "maxdogs_lost_artifacts:block/sword_in_stone",
     "particle": "maxdogs_lost_artifacts:block/sword_in_stone",
-    "0": "maxdogs_lost_artifacts:block/sword_in_stone"
+    "1": "maxdogs_lost_artifacts:block/sword_in_stone"
   },
   "render_type": "solid"
 }

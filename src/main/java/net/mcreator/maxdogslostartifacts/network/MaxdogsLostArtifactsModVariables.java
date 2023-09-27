@@ -108,10 +108,10 @@ public class MaxdogsLostArtifactsModVariables {
 	}
 
 	public static class PlayerVariables {
-		public double Kinectic = 0;
+		public double Kinectic = 0.0;
 		public double Mana = 100.0;
 		public double spawnZ = 0;
-		public double SpawnY = 0;
+		public double SpawnY = 0.0;
 		public double SpawnX = 0;
 		public boolean BearerOfTheSword = false;
 

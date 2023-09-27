@@ -1139,7 +1139,7 @@
       "name": "Kinectic",
       "type": "number",
       "scope": "player_lifetime",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "Mana",
@@ -1157,7 +1157,7 @@
       "name": "SpawnY",
       "type": "number",
       "scope": "player_persistent",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "SpawnX",
