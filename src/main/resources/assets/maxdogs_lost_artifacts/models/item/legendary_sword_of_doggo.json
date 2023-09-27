@@ -1,7 +1,7 @@
 {
   "parent": "maxdogs_lost_artifacts:custom/legendaryswordofdoggo",
   "textures": {
-    "0": "maxdogs_lost_artifacts:block/legendaryswordofdoggo",
+    "0": "maxdogs_lost_artifacts:block/legendary_sword_of_doggo",
     "particle": "maxdogs_lost_artifacts:item/legendaryswordofdoggo"
   }
 }
