@@ -62,52 +62,52 @@ public class KinecticOverlay {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (true) {
 			if (Kinecticbar1Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k1.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k1.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kinecticbar2Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k2.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k2.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kinecticbar3Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k3.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k3.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kinecticbar4Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k4.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k4.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kinecticbar5Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k5.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k5.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb6Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k6.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k6.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb7Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k7.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k7.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb8Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k8.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k8.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb9Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k9.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k9.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb10Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k10.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k10.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb11Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k11.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k11.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb12Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k12.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k12.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb13Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k13.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k13.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb14Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k14.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k14.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb15Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k15.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k15.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 			if (Kb16Procedure.execute(entity)) {
-				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k16.png"), posX + 99, posY + 104, 0, 0, 32, 16, 32, 16);
+				event.getGuiGraphics().blit(new ResourceLocation("maxdogs_lost_artifacts:textures/screens/k16.png"), posX + 99, posY + 104, 0, 0, 16, 16, 16, 16);
 			}
 		}
 		RenderSystem.depthMask(true);

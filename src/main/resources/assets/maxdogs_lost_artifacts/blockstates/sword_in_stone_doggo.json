@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "maxdogs_lost_artifacts:block/sword_in_stone_doggo"
+    },
+    "facing=east": {
+      "model": "maxdogs_lost_artifacts:block/sword_in_stone_doggo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "maxdogs_lost_artifacts:block/sword_in_stone_doggo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "maxdogs_lost_artifacts:block/sword_in_stone_doggo",
+      "y": 270
+    }
+  }
+}

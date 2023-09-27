@@ -24,5 +24,6 @@ public class MaxdogsLostArtifactsModTabs {
 				tabData.accept(MaxdogsLostArtifactsModItems.MEMORIES_OF_HOME.get());
 				tabData.accept(MaxdogsLostArtifactsModItems.HOME_DEBUGER.get());
 				tabData.accept(MaxdogsLostArtifactsModItems.LEVITATION_WAND.get());
+				tabData.accept(MaxdogsLostArtifactsModBlocks.SWORD_IN_STONE_DOGGO.get().asItem());
 			}).withSearchBar().build());
 }

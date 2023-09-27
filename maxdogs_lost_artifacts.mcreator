@@ -46,6 +46,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -74,9 +78,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/maxdogslostartifacts/entity/MaxdogsUltimateGunEntity.java",
-          "src/main/java/net/mcreator/maxdogslostartifacts/item/MaxdogsUltimateGunItem.java",
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/maxdogs_ultimate_gun.json",
           "src/main/java/net/mcreator/maxdogslostartifacts/client/renderer/MaxdogsUltimateGunRenderer.java",
-          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/maxdogs_ultimate_gun.json"
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/MaxdogsUltimateGunItem.java"
         ]
       }
     },
@@ -180,8 +184,8 @@
       "registry_name": "builders_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maxdogslostartifacts/item/BuildersHammerItem.java",
-          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/builders_hammer.json"
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/builders_hammer.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/BuildersHammerItem.java"
         ]
       }
     },
@@ -997,6 +1001,137 @@
         ]
       },
       "path": "~/Levitation Wand"
+    },
+    {
+      "name": "DoggyOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doggy_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/DoggyOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LegendarySwordOfDoggo",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sword_of_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/legendary_sword_of_doggo.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/item/LegendarySwordOfDoggoItem.java"
+        ]
+      },
+      "path": "~/Legendary Sword Of Doggo"
+    },
+    {
+      "name": "BecomeTheBearerOfTheSword",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "become_the_bearer_of_the_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/BecomeTheBearerOfTheSwordProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Legendary Sword Of Doggo"
+    },
+    {
+      "name": "LegendarySwordOfDoggoRightclicked",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legendary_sword_of_doggo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/LegendarySwordOfDoggoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Legendary Sword Of Doggo"
+    },
+    {
+      "name": "SwordInStoneDoggoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_in_stone_doggo_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maxdogslostartifacts/procedures/SwordInStoneDoggoOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Legendary Sword Of Doggo"
+    },
+    {
+      "name": "SwordInStoneDoggo",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_in_stone_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/item/sword_in_stone_doggo.json",
+          "src/main/java/net/mcreator/maxdogslostartifacts/block/SwordInStoneDoggoBlock.java",
+          "src/main/resources/assets/maxdogs_lost_artifacts/models/block/sword_in_stone_doggo.json",
+          "src/main/resources/assets/maxdogs_lost_artifacts/blockstates/sword_in_stone_doggo.json"
+        ]
+      },
+      "path": "~/Legendary Sword Of Doggo"
     }
   ],
   "variable_elements": [
@@ -1029,19 +1164,27 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "BearerOfTheSword",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.maxdogs_lost_artifacts.memories_of_home": "Memories Of Home",
-      "item.maxdogs_lost_artifacts.mana_tester": "Mana Tester",
-      "gui.maxdogs_lost_artifacts.mana_screen.label_varmana": "\u003cVAR:Mana\u003e",
       "entity.maxdogs_lost_artifacts.doggy": "Doggy",
       "item.maxdogs_lost_artifacts.builders_hammer": "Builder\u0027s Hammer",
       "item.maxdogs_lost_artifacts.maxdogs_ultimate_gun": "Maxdog\u0027s Ultimate Gun",
       "item.maxdogs_lost_artifacts.levitation_wand": "Levitation Mace",
       "itemGroup.tabartifacts": "Artifacts",
+      "item.maxdogs_lost_artifacts.mana_tester": "Mana Tester",
+      "gui.maxdogs_lost_artifacts.mana_screen.label_varmana": "\u003cVAR:Mana\u003e",
+      "item.maxdogs_lost_artifacts.legendary_sword_of_doggo": "Legendary Sword Of Doggo",
+      "block.maxdogs_lost_artifacts.sword_in_stone_doggo": "Sword In Stone",
       "item.maxdogs_lost_artifacts.home_debuger": "Home Debuger",
       "item_group.maxdogs_lost_artifacts.artifacts": "Artifacts"
     }
@@ -1063,6 +1206,10 @@
       },
       {
         "name": "Levitation Wand",
+        "children": []
+      },
+      {
+        "name": "Legendary Sword Of Doggo",
         "children": []
       }
     ]

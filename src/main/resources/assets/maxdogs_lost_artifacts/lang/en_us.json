@@ -1,12 +1,14 @@
 {
   "item.maxdogs_lost_artifacts.memories_of_home": "Memories Of Home",
-  "item.maxdogs_lost_artifacts.mana_tester": "Mana Tester",
-  "gui.maxdogs_lost_artifacts.mana_screen.label_varmana": "\u003cVAR:Mana\u003e",
   "entity.maxdogs_lost_artifacts.doggy": "Doggy",
   "item.maxdogs_lost_artifacts.builders_hammer": "Builder\u0027s Hammer",
   "item.maxdogs_lost_artifacts.maxdogs_ultimate_gun": "Maxdog\u0027s Ultimate Gun",
   "item.maxdogs_lost_artifacts.levitation_wand": "Levitation Mace",
   "itemGroup.tabartifacts": "Artifacts",
+  "item.maxdogs_lost_artifacts.mana_tester": "Mana Tester",
+  "gui.maxdogs_lost_artifacts.mana_screen.label_varmana": "\u003cVAR:Mana\u003e",
+  "item.maxdogs_lost_artifacts.legendary_sword_of_doggo": "Legendary Sword Of Doggo",
+  "block.maxdogs_lost_artifacts.sword_in_stone_doggo": "Sword In Stone",
   "item.maxdogs_lost_artifacts.home_debuger": "Home Debuger",
   "item_group.maxdogs_lost_artifacts.artifacts": "Artifacts"
 }

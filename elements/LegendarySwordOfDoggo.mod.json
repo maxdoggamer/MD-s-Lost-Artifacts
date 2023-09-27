@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "texture": "legendaryswordofdoggo",
+    "customModelName": "legendaryswordofdoggo:default",
+    "name": "Legendary Sword Of Doggo",
+    "specialInfo": [
+      "The Sword chooses its master",
+      "who it will serve from beginning to end"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "harvestLevel": 100000,
+    "efficiency": 100000.0,
+    "attackSpeed": 100.0,
+    "enchantability": 100000,
+    "damageVsEntity": 50.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "LegendarySwordOfDoggoRightclicked"
+    }
+  }
+}

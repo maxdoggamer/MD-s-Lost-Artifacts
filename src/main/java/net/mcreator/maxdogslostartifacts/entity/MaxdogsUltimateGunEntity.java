@@ -69,19 +69,19 @@ public class MaxdogsUltimateGunEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity);
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity());
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		MaxdogsUltimateGunProjectileHitsBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this.getOwner());
 	}
 
 	@Override

@@ -69,6 +69,7 @@ public class MaxdogsLostArtifactsModVariables {
 			clone.spawnZ = original.spawnZ;
 			clone.SpawnY = original.SpawnY;
 			clone.SpawnX = original.SpawnX;
+			clone.BearerOfTheSword = original.BearerOfTheSword;
 			if (!event.isWasDeath()) {
 				clone.Kinectic = original.Kinectic;
 				clone.Mana = original.Mana;
@@ -112,6 +113,7 @@ public class MaxdogsLostArtifactsModVariables {
 		public double spawnZ = 0;
 		public double SpawnY = 0;
 		public double SpawnX = 0;
+		public boolean BearerOfTheSword = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -125,6 +127,7 @@ public class MaxdogsLostArtifactsModVariables {
 			nbt.putDouble("spawnZ", spawnZ);
 			nbt.putDouble("SpawnY", SpawnY);
 			nbt.putDouble("SpawnX", SpawnX);
+			nbt.putBoolean("BearerOfTheSword", BearerOfTheSword);
 			return nbt;
 		}
 
@@ -135,6 +138,7 @@ public class MaxdogsLostArtifactsModVariables {
 			spawnZ = nbt.getDouble("spawnZ");
 			SpawnY = nbt.getDouble("SpawnY");
 			SpawnX = nbt.getDouble("SpawnX");
+			BearerOfTheSword = nbt.getBoolean("BearerOfTheSword");
 		}
 	}
 
@@ -164,6 +168,7 @@ public class MaxdogsLostArtifactsModVariables {
 					variables.spawnZ = message.data.spawnZ;
 					variables.SpawnY = message.data.SpawnY;
 					variables.SpawnX = message.data.SpawnX;
+					variables.BearerOfTheSword = message.data.BearerOfTheSword;
 				}
 			});
 			context.setPacketHandled(true);

@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.maxdogslostartifacts.init.MaxdogsLostArtifactsModTabs;
 import net.mcreator.maxdogslostartifacts.init.MaxdogsLostArtifactsModItems;
 import net.mcreator.maxdogslostartifacts.init.MaxdogsLostArtifactsModEntities;
+import net.mcreator.maxdogslostartifacts.init.MaxdogsLostArtifactsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,8 @@ public class MaxdogsLostArtifactsMod {
 	public MaxdogsLostArtifactsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MaxdogsLostArtifactsModBlocks.REGISTRY.register(bus);
 
 		MaxdogsLostArtifactsModItems.REGISTRY.register(bus);
 		MaxdogsLostArtifactsModEntities.REGISTRY.register(bus);
